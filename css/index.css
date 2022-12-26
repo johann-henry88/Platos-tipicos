@@ -1,0 +1,5 @@
+@import './modules/variables.css';
+
+.body {
+    font-size: fs-3;
+}
