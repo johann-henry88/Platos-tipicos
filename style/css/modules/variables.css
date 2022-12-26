@@ -1,0 +1,13 @@
+:root {
+    --primary-text-color: black;
+    --bs-body-color: black;
+    --bs-body-color-rgb:var(--bs-body-color-rgb);
+}
+
+@media (min-width: 768px) {
+    :root {
+      --max-width-container: 1024px;
+      --padding-section: 2rem;
+      --padding-container: 0.75rem;
+    }
+  }

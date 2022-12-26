@@ -8,7 +8,9 @@
 
     <link rel="shortcut icon" href="./assets/cheff.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./style/css/index.css">
+
+    <link rel="stylesheet" href="./style/css/fe.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
@@ -27,23 +29,16 @@
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#character">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" href="#">Historia de la Gastronomía Peruana</a>
+                            <a class="nav-link active" href="#costa">Costa</a>
                           </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              3 Regiones
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                              <li><a class="dropdown-item" href="#">Costa</a></li>
-                              <li><a class="dropdown-item" href="#">Sierra</a></li>
-                              <li><a class="dropdown-item" href="#">Selva</a></li>
-                            </ul>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#sierra">Sierra</a>
                           </li>
-                          <li class="nav-item ">
-                            <a class="nav-link active" href="#"> Galería</a>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#selva">selva</a>
                           </li>
                         </ul>
                         <form class="d-flex" role="search" id="serchform">
@@ -55,7 +50,7 @@
                   </nav>
     </header>
 
-    <section>
+    <section id="inicio">
       <div id="carouselExampleDark" class="carousel carousel-dark slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -113,6 +108,277 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </section>
+
+    <section id="costa">
+      <div class="container d-flex flex-column gap-5">
+        <h2 class="text-center">Gastronomia de la Costa</h2>
+        <div class="row d-flex justify-content-center g-4">
+          <div class="col-md-4">
+            <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+              <img src="https://www.gediscovery.edu.pe/blog/wp-content/uploads/2017/07/gastronomia-ceviche.jpg" 
+              class="card-img-top" alt="Costa 1" width="256" height="144" style="width: 100%; object-fit: cover;">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Costa</div>
+                <div class="card-body">
+                  <h5 class="card-title">Ceviche</h5>
+                  <p class="card-text">La costumbre de preparar Ceviche comenzó en la época pre-incaica con la cultura Mochica quienes preparaban un plato en base a pescado fresco macerado con el jugo de una fruta cítrica llamada “tumbo” y hierbas de la zona. Durante el imperio Incaico, la preparación del ceviche fue modificándose</p>
+                  <a href="https://buenazo.pe/recetas/entradas/ceviche-lenguado-receta-clasica-81" class="btn btn-primary" target="_blank">Receta</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+            <img src="https://i.pinimg.com/originals/cc/2b/54/cc2b549df93ec7c62e214cadc03c7b42.jpg" 
+            class="card-img-top" alt="Costa 2" width="256" height="144" style="width: 100%; object-fit: cover;">
+            <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+              <div class="card-header">Costa</div>
+              <div class="card-body">
+                <h5 class="card-title">Causa limeña</h5>
+                <p class="card-text">Existen teorías que vinculan el origen de la Causa con los incas. Se dice que su nombre proviene del vocablo quechua kausaq, nombre que le daban a la papa y cuyo significado era “sustento de vida”. Datos históricos señalan que los ancestros ya tenían su versión de papa sancochada mezclada con ají.</p>
+                <a href="https://buenazo.pe/recetas/entradas/causa-pollo-receta-159" class="btn btn-primary" target="_blank">Receta</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+          <img src="https://peru.info/archivos/publicacion/142-imagen-18927482020.jpg" 
+          class="card-img-top" alt="Costa 3" width="256" height="144" style="width: 100%; object-fit: cover;">
+          <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Costa</div>
+            <div class="card-body">
+              <h5 class="card-title">Anticuchos</h5>
+              <p class="card-text">¿Cuál es el origen de los anticuchos? Se sabe que en la época prehispánica los antiguos peruanos del Ande consumían trozos de carne de llama sazonados con hierbas y ajíes. Pero no fue hasta la época colonial cuando el plato empezó a tener los ingredientes con los que lo conocemos hoy en día.</p>
+              <a href="https://buenazo.pe/recetas/entradas/anticuchos-peruanos-113" class="btn btn-primary" target="_blank">Receta</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+        <img src="https://comidaperuana.online/wp-content/uploads/2022/01/Receta-de-seco-de-cabrito-a-la-nortena.jpg" 
+        class="card-img-top" alt="Costa 4" width="256" height="144" style="width: 100%; object-fit: cover;">
+        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Costa</div>
+          <div class="card-body">
+            <h5 class="card-title">Seco de Cabrito a la Norteña</h5>
+            <p class="card-text">Su clásica preparación fue detallada en el "Nuevo Manual de la Cocina Peruana", en el año 1895, en el que destacan los ingredientes propios del norte del país como el zapallo loche, la chicha de jora y sobre todo, carne de cordero. Años después, la carne de cabrito fue popularizada y se utiliza hasta hoy.</p>
+            <a href="https://buenazo.pe/recetas/platos-de-fondo/seco-cabrito-receta-153" class="btn btn-primary" target="_blank">Receta</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+      <img src="https://decomidaperuana.com/wp-content/uploads/2020/05/sopa-shambar.jpg" 
+      class="card-img-top" alt="Costa 5" width="256" height="144" style="width: 100%; object-fit: cover;">
+      <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Sopa</div>
+        <div class="card-body">
+          <h5 class="card-title">Shambar</h5>
+          <p class="card-text">Se trata de una suculenta sopa que incluye todo tipo de legumbres y carnes, y cuya tradición norteña es servirla al inicio de cada semana por ser una gran fuente de energía. Actualmente, no hay restaurante o pequeño 'huarique' en la costa norte peruana donde no se sirva esta deliciosa receta.</p>
+          <a href="https://buenazo.pe/recetas/sopas-caldos-y-cremas/sopa-shambar-receta-227" class="btn btn-primary" target="_blank">Receta</a>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+    <img src="https://decomidaperuana.com/wp-content/uploads/2017/08/receta-de-cau-cau.jpg" 
+    class="card-img-top" alt="Costa 6" width="256" height="144" style="width: 100%; object-fit: cover;">
+    <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+      <div class="card-header">Costa</div>
+      <div class="card-body">
+        <h5 class="card-title">Cau Cau de Mondongo</h5>
+        <p class="card-text">Es un delicioso plato, típico de Lima Perú tiene un origen de la época colonial, se lo debemos a la conquista de los españoles, cuando llegaron al Perú ellos hacían apetitosos festejos y grandes potajes de carne de res.</p>
+        <a href="https://buenazo.pe/recetas/platos-de-fondo/cau-cau-mondongo-receta-157" class="btn btn-primary" target="_blank">Receta</a>
+      </div>
+       </div>
+      </div>
+     </div>
+     <section id="sierra">
+     <div class="container d-flex flex-column gap-5">
+      <h2 class="text-center">Gastronomia de la Sierra</h2>
+      <div class="row d-flex justify-content-center g-4">
+        <div class="col-md-4">
+          <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+            <img src="https://i.ytimg.com/vi/u9AMJGOF26g/maxresdefault.jpg" 
+            class="card-img-top" alt="Sierra 1" width="256" height="144" style="width: 100%; object-fit: cover;">
+            <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+              <div class="card-header">Sierra</div>
+              <div class="card-body">
+                <h5 class="card-title">Pachamanca</h5>
+                <p class="card-text">Es un plato que comenzó en la cultura Wari entre los años 500 y 1100 d.C, a raíz de una técnica culinaria que ayudaba a conservar y preparar los alimentos. La Pachamanca es un ritual a la madre tierra en agradecimiento a las divinidades del mundo andino por las buenas cosechas de la temporada.</p>
+                <a href="https://buenazo.pe/recetas/platos-de-fondo/pachamanca-receta-237" class="btn btn-primary" target="_blank">Receta</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+          <img src="https://i.pinimg.com/originals/cc/2b/54/cc2b549df93ec7c62e214cadc03c7b42.jpg" 
+          class="card-img-top" alt="Sierra 2" width="256" height="144" style="width: 100%; object-fit: cover;">
+          <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Sierra</div>
+            <div class="card-body">
+              <h5 class="card-title">Papa a la Huancaina</h5>
+              <p class="card-text">Al ser una labor que demandaba un importante esfuerzo por parte de obreros e ingenieros, un grupo de mujeres huancaínas tuvo la iniciativa de asistir y proveer con alimentos a los trabajadores. Dentro del menú ofrecido, un potaje a base de papa, queso y rocoto se convirtió en el preferido de todos</p>
+              <a href="https://buenazo.pe/recetas/entradas/crema-huancaina-receta-176" class="btn btn-primary" target="_blank">Receta</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+        <img src="https://i.ytimg.com/vi/eDTatYho_-w/maxresdefault.jpg" 
+        class="card-img-top" alt="Sierra 3" width="256" height="144" style="width: 100%; object-fit: cover;">
+        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Sierra</div>
+          <div class="card-body">
+            <h5 class="card-title">Mote con Chicharron</h5>
+            <p class="card-text">En la zona andina el chicharrón se acompaña con mote. El cerdo frito se sirve con papas, camotes y el mote, maíz autóctono. Francisco Pizarro, quien criaba cerdos en su infancia, era el principal aficionado a este plato completo durante los inicios de la colonización española.</p>
+            <a href="https://www.recetasgratis.net/receta-de-chicharron-de-chancho-75361.html" class="btn btn-primary" target="_blank">Receta</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+      <img src="https://www.laylita.com/recetas/wp-content/uploads/Humitas.jpg" 
+      class="card-img-top" alt="Sierra 4" width="256" height="144" style="width: 100%; object-fit: cover;">
+      <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Sierra</div>
+        <div class="card-body">
+          <h5 class="card-title">Humitas</h5>
+          <p class="card-text">De hecho, el nombre de este plato proviene del quechua y desde sus inicios consistía en un bollo hecho de maíz y cubierto en panca de choclo. Fue durante la época colonial, que fueron muy comercializadas en las calles de Lima, en donde las mujeres salían con sus canastones a ofrecerlos cada tarde</p>
+          <a href="https://buenazo.pe/recetas/desayunos/humitas-queso-receta-234" class="btn btn-primary" target="_blank">Receta</a>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+    <img src="https://www.comida-peruana.com/base/stock/Recipe/37-image/37-image_web.jpg" 
+    class="card-img-top" alt="Sierra 5" width="256" height="144" style="width: 100%; object-fit: cover;">
+    <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+      <div class="card-header">Sierra</div>
+      <div class="card-body">
+        <h5 class="card-title">Cuy Chactado</h5>
+        <p class="card-text">Este platillo típico es originario de la región Cajamarca. Según su etimología, la palabra chactado hace referencia a la forma de cocción del alimento. Hablamos de un platillo de gran valor cultural para las zonas andinas del Perú. Este plato de origen andino, fue la comida preferida de los incas.</p>
+        <a href="https://buenazo.pe/recetas/platos-de-fondo/cuy-chactado-receta-272" class="btn btn-primary" target="_blank">Receta</a>
+      </div>
+    </div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+  <img src="https://decomidaperuana.com/wp-content/uploads/2020/04/patasca.jpg" 
+  class="card-img-top" alt="Sierra 6" width="256" height="144" style="width: 100%; object-fit: cover;">
+  <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+    <div class="card-header">Sierra</div>
+    <div class="card-body">
+      <h5 class="card-title">Patasca</h5>
+      <p class="card-text">En el transcurso de la historia, este plato peruano ha sido nombrado por diferentes escritores como el jesuita Bernabé Cobo, en el siglo XVII, quien escribió un capítulo dedicado a las comidas y bebidas de los indios, un guisado llamado “motepatasca”.</p>
+      <a href="https://buenazo.pe/recetas/sopas-caldos-y-cremas/patasca-receta-263" class="btn btn-primary" target="_blank">Receta</a>
+    </div>
+       </div>
+     </div>
+    </div>
+  </section>
+  <section id="selva">
+    <div class="container d-flex flex-column gap-5">
+      <h2 class="text-center">Gastronomia de la Selva</h2>
+      <div class="row d-flex justify-content-center g-4">
+        <div class="col-md-4">
+          <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+            <img src="https://recetascocinaperuana.com/wp-content/uploads/2020/05/juane.jpg" 
+            class="card-img-top" alt="Selva 1" width="256" height="144" style="width: 100%; object-fit: cover;">
+            <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+              <div class="card-header">Selva</div>
+              <div class="card-body">
+                <h5 class="card-title">Juane</h5>
+                <p class="card-text">El origen del nombre Juane se remontaría a la época prehispánica, en la que los antiguos peruanos, ubicados en la zona del Putumayo, en Loreto, preparaban sus alimentos envueltos en hojas de plátano o bijao para cocinarlos a fuego lento</p>
+                <a href="https://buenazo.pe/recetas/platos-de-fondo/juane-gallina-receta-147" class="btn btn-primary" target="_blank">Receta</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+          <img src="https://comidasperuanas.net/wp-content/uploads/2017/07/Tacacho-con-cecina.jpg" 
+          class="card-img-top" alt="Selva 2" width="256" height="144" style="width: 100%; object-fit: cover;">
+          <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Selva</div>
+            <div class="card-body">
+              <h5 class="card-title">Tacacho con Cecina</h5>
+              <p class="card-text">l tacacho con cecina es un plato típico de la gastronomía del Perú originario de la zona de la selva peruana y ampliamente difundido en el resto del país. El término «tacacho» deriva probablemente del quechua «taka chu», que significa «lo golpeado»</p>
+              <a href="https://buenazo.pe/recetas/platos-de-fondo/tacacho-cecina-receta-paso-paso-190" class="btn btn-primary" target="_blank">Receta</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+        <img src="https://imgmedia.wapa.pe/1200x660/wapa/migration/imagen/2018/07/30/noticia-comida-peruana-arroz-chaufa-de-cecina-receta.png" 
+        class="card-img-top" alt="Selva 3" width="256" height="144" style="width: 100%; object-fit: cover;">
+        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Selva</div>
+          <div class="card-body">
+            <h5 class="card-title">Arroz Chaufa Amazonico</h5>
+            <p class="card-text">Para quienes nos gusta el arroz, la comida oriental y los sabores ahumados, el Arroz Chaufa Charapa es un manjar, pues mezcla todos estos sabores en una suculenta versión del clásico Arroz Chaufa pero con productos de la Selva Peruana como la cecina y el chorizo amazónico.</p>
+            <a href="https://buenazo.pe/recetas/platos-de-fondo/arroz-chaufa-amazonico-receta-236" class="btn btn-primary" target="_blank">Receta</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+      <img src="https://comidasperuanas.net/wp-content/uploads/2020/11/Inchicapi-de-gallina.jpg" 
+      class="card-img-top" alt="Selva 4" width="256" height="144" style="width: 100%; object-fit: cover;">
+      <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Selva</div>
+        <div class="card-body">
+          <h5 class="card-title">Inchicapi</h5>
+          <p class="card-text">El inchicapi, también llamado inchicapi de gallina, es un plato típico de la gastronomía del Perú, específicamente de la selva peruana.​ Precisamente en los departamentos de Loreto, Amazonas, San Martín y Madre de Dios. Es tradición degustar en cumpleaños y ocasiones especiales.</p>
+          <a href="https://buenazo.pe/recetas/sopas-caldos-y-cremas/inchicapi-receta-284" class="btn btn-primary" target="_blank">Receta</a>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+    <img src="hhttps://recetascocinaperuana.com/wp-content/uploads/2022/04/ensalada-de-chonta.jpg" 
+    class="card-img-top" alt="Selva 5" width="256" height="144" style="width: 100%; object-fit: cover;">
+    <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+      <div class="card-header">Selva</div>
+      <div class="card-body">
+        <h5 class="card-title">Ensalada de Chonta</h5>
+        <p class="card-text">Lo que si sabemos sobre este fruto controversial es que tiene su origen en nuestro continente americano y que es la única palma silvestre que se ha podido domesticar debidamente.</p>
+        <a href="https://buenazo.pe/notas/2022/06/04/chonta-palmito-recetas-faciles-deliciosas-710" class="btn btn-primary" target="_blank">Receta</a>
+      </div>
+    </div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card bg-body border border-2 border-light border-opacity-25" style="width: 18rem;">
+  <img src="https://www.comida-peruana.com/base/stock/Recipe/151-image/151-image_web.jpg" 
+  class="card-img-top" alt="Selva 6" width="256" height="144" style="width: 100%; object-fit: cover;">
+  <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+    <div class="card-header">Selva</div>
+    <div class="card-body">
+      <h5 class="card-title">Refresco de Cocona</h5>
+      <p class="card-text">El origen del refresco de cocona apunta a la amazonia peruana, este fruto agridulce se da en la amazonia para ser exactos en Tingo María, Ucayali e Iquitos quienes tiene mayor cantidad de producción.Es una bebida que incluso no muchos peruanos conocen, puesto que la venta local se da en el centro de las ciudades siendo acopio de compras a las provincias. Lamentablemente su producción es limitada por ello, es imposible su distribución de manera general al país.</p>
+      <a href="hhttps://comococinar.pe/refresco-de-cocona/" class="btn btn-primary" target="_blank">Receta</a>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+   </div>
+    </div>
+    </section>
     </section>
     
 
